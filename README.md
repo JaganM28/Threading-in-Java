@@ -3,7 +3,7 @@
 This repository contains examples of client-server communication using Java Sockets:
 
 ## Folder Structure
-
+```
 Threading-in-Java/
 ├── SingleThreaded/
 │ ├── Client.java
@@ -11,7 +11,7 @@ Threading-in-Java/
 ├── MultiThreaded/
 │ ├── Client.java
 │ └── Server.java
-
+```
 
 ## Features
 
@@ -21,15 +21,18 @@ Threading-in-Java/
 ## How to Run
 
 1. **Compile** the server and client:
+```
 javac Server.java
 javac Client.java
-
-2. **Start the server** (from one terminal):
+```
+3. **Start the server** (from one terminal):
+```
 java Server
-
-3. **Start the client** (from another terminal or multiple clients):
+```
+5. **Start the client** (from another terminal or multiple clients):
+```
 java Client
-
+```
 ## Requirements
 
 - Java 8 or above
